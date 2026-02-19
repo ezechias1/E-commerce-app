@@ -1,6 +1,15 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_GENAI_API_KEY! });
+let _ai: GoogleGenAI | null = null;
+
+function getAI() {
+  if (!_ai) {
+    const key = process.env.GOOGLE_GENAI_API_KEY;
+    if (!key) throw new Error("GOOGLE_GENAI_API_KEY is not set");
+    _ai = new GoogleGenAI({ apiKey: key });
+  }
+  return _ai;
+}
 
 export async function generateProductImage(
   productName: string,
@@ -9,8 +18,8 @@ export async function generateProductImage(
   const prompt = `Professional product photography of ${productName}, ${category} category. Clean white background, studio lighting, high-end commercial product shot, 4K quality, no text or watermarks.`;
 
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-preview-04-17",
+    const response = await getAI().models.generateContent({
+      model: "gemini-2.0-flash-exp-image-generation",
       contents: prompt,
       config: {
         responseModalities: ["image", "text"],
