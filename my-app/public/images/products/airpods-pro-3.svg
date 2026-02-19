@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f3f4f6" rx="12" ry="12"/>
+  <text x="200" y="150" text-anchor="middle" font-size="64">🎧</text>
+  <text x="200" y="195" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#6b7280" letter-spacing="1.5">APPLE</text>
+    <text x="200" y="230" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1f2937">Apple AirPods Pro 3</text>
+  <rect x="100" y="273" width="200" height="1" fill="#d1d5db"/>
+  <text x="200" y="298" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#9ca3af">Headphones — Placeholder</text>
+</svg>
