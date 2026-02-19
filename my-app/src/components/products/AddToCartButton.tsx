@@ -3,8 +3,10 @@
 import { useState } from "react";
 import { Product } from "@/types/product";
 import { useCart } from "@/context/CartContext";
+import { useToast } from "@/context/ToastContext";
 import Button from "@/components/ui/Button";
 import QuantitySelector from "@/components/ui/QuantitySelector";
+import { useRouter } from "next/navigation";
 
 interface AddToCartButtonProps {
   product: Product;
@@ -12,6 +14,8 @@ interface AddToCartButtonProps {
 
 export default function AddToCartButton({ product }: AddToCartButtonProps) {
   const { addItem } = useCart();
+  const { addToast } = useToast();
+  const router = useRouter();
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
 
@@ -19,6 +23,14 @@ export default function AddToCartButton({ product }: AddToCartButtonProps) {
     addItem(product, quantity);
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
+    addToast({
+      message: `${quantity}x ${product.name} added to cart`,
+      type: "success",
+      action: {
+        label: "View Cart",
+        onClick: () => router.push("/cart"),
+      },
+    });
   };
 
   return (

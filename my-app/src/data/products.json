@@ -2,12 +2,14 @@
   {
     "id": "macbook-pro-16",
     "name": "MacBook Pro 16-inch M4 Max",
-    "price": 2499.00,
+    "price": 2499,
     "salePrice": null,
     "category": "laptops",
     "brand": "Apple",
-    "image": "/images/products/macbook-pro-16.png",
-    "images": ["/images/products/macbook-pro-16.png"],
+    "image": "/images/products/macbook-pro-16.jpg",
+    "images": [
+      "/images/products/macbook-pro-16.jpg"
+    ],
     "rating": 4.8,
     "reviewCount": 342,
     "inStock": true,
@@ -20,17 +22,24 @@
       "Battery": "Up to 24 hours"
     },
     "description": "The most powerful MacBook Pro ever built. Featuring the M4 Max chip for unprecedented performance in video editing, 3D rendering, and software development.",
-    "tags": ["video editing", "professional", "creative", "powerful"]
+    "tags": [
+      "video editing",
+      "professional",
+      "creative",
+      "powerful"
+    ]
   },
   {
     "id": "macbook-air-15",
     "name": "MacBook Air 15-inch M4",
-    "price": 1299.00,
-    "salePrice": 1199.00,
+    "price": 1299,
+    "salePrice": 1199,
     "category": "laptops",
     "brand": "Apple",
-    "image": "/images/products/macbook-air-15.png",
-    "images": ["/images/products/macbook-air-15.png"],
+    "image": "/images/products/macbook-air-15.jpg",
+    "images": [
+      "/images/products/macbook-air-15.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 518,
     "inStock": true,
@@ -43,17 +52,24 @@
       "Battery": "Up to 18 hours"
     },
     "description": "Impossibly thin, incredibly powerful. The 15-inch MacBook Air delivers stunning performance in a fanless design that goes anywhere.",
-    "tags": ["ultralight", "portable", "everyday", "student"]
+    "tags": [
+      "ultralight",
+      "portable",
+      "everyday",
+      "student"
+    ]
   },
   {
     "id": "dell-xps-16",
     "name": "Dell XPS 16 (2025)",
-    "price": 1899.00,
+    "price": 1899,
     "salePrice": null,
     "category": "laptops",
     "brand": "Dell",
-    "image": "/images/products/dell-xps-16.png",
-    "images": ["/images/products/dell-xps-16.png"],
+    "image": "/images/products/dell-xps-16.jpg",
+    "images": [
+      "/images/products/dell-xps-16.jpg"
+    ],
     "rating": 4.5,
     "reviewCount": 203,
     "inStock": true,
@@ -66,17 +82,24 @@
       "GPU": "NVIDIA RTX 4070"
     },
     "description": "A creative powerhouse with a stunning 4K OLED display and dedicated GPU. Built for creators who demand the best.",
-    "tags": ["creative", "windows", "4K", "gaming"]
+    "tags": [
+      "creative",
+      "windows",
+      "4K",
+      "gaming"
+    ]
   },
   {
     "id": "thinkpad-x1-carbon",
     "name": "Lenovo ThinkPad X1 Carbon Gen 12",
-    "price": 1649.00,
-    "salePrice": 1449.00,
+    "price": 1649,
+    "salePrice": 1449,
     "category": "laptops",
     "brand": "Lenovo",
-    "image": "/images/products/thinkpad-x1.png",
-    "images": ["/images/products/thinkpad-x1.png"],
+    "image": "/images/products/thinkpad-x1-carbon.jpg",
+    "images": [
+      "/images/products/thinkpad-x1-carbon.jpg"
+    ],
     "rating": 4.6,
     "reviewCount": 287,
     "inStock": true,
@@ -89,17 +112,24 @@
       "Weight": "2.48 lbs"
     },
     "description": "The gold standard for business laptops. Ultra-light, ultra-durable, with legendary ThinkPad keyboard and enterprise security features.",
-    "tags": ["business", "ultralight", "durable", "enterprise"]
+    "tags": [
+      "business",
+      "ultralight",
+      "durable",
+      "enterprise"
+    ]
   },
   {
     "id": "iphone-16-pro-max",
     "name": "iPhone 16 Pro Max",
-    "price": 1199.00,
+    "price": 1199,
     "salePrice": null,
     "category": "phones",
     "brand": "Apple",
-    "image": "/images/products/iphone-16-pro-max.png",
-    "images": ["/images/products/iphone-16-pro-max.png"],
+    "image": "/images/products/iphone-16-pro-max.jpg",
+    "images": [
+      "/images/products/iphone-16-pro-max.jpg"
+    ],
     "rating": 4.9,
     "reviewCount": 1203,
     "inStock": true,
@@ -112,17 +142,24 @@
       "Battery": "All-day battery life"
     },
     "description": "The ultimate iPhone. Pro camera system with 5x optical zoom, A18 Pro chip, and the largest display ever on an iPhone.",
-    "tags": ["flagship", "camera", "premium", "5G"]
+    "tags": [
+      "flagship",
+      "camera",
+      "premium",
+      "5G"
+    ]
   },
   {
     "id": "samsung-galaxy-s25-ultra",
     "name": "Samsung Galaxy S25 Ultra",
-    "price": 1299.00,
+    "price": 1299,
     "salePrice": null,
     "category": "phones",
     "brand": "Samsung",
-    "image": "/images/products/galaxy-s25-ultra.png",
-    "images": ["/images/products/galaxy-s25-ultra.png"],
+    "image": "/images/products/samsung-galaxy-s25-ultra.jpg",
+    "images": [
+      "/images/products/samsung-galaxy-s25-ultra.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 876,
     "inStock": true,
@@ -135,17 +172,25 @@
       "S Pen": "Built-in"
     },
     "description": "Galaxy AI meets the most powerful Ultra yet. With a 200MP camera, built-in S Pen, and titanium frame.",
-    "tags": ["flagship", "AI", "camera", "S Pen", "android"]
+    "tags": [
+      "flagship",
+      "AI",
+      "camera",
+      "S Pen",
+      "android"
+    ]
   },
   {
     "id": "google-pixel-9-pro",
     "name": "Google Pixel 9 Pro",
-    "price": 999.00,
-    "salePrice": 899.00,
+    "price": 999,
+    "salePrice": 899,
     "category": "phones",
     "brand": "Google",
-    "image": "/images/products/pixel-9-pro.png",
-    "images": ["/images/products/pixel-9-pro.png"],
+    "image": "/images/products/google-pixel-9-pro.jpg",
+    "images": [
+      "/images/products/google-pixel-9-pro.jpg"
+    ],
     "rating": 4.6,
     "reviewCount": 654,
     "inStock": true,
@@ -158,17 +203,24 @@
       "AI Features": "Gemini built-in"
     },
     "description": "The smartest Pixel ever with Google AI built in. Best-in-class computational photography and 7 years of updates.",
-    "tags": ["AI", "photography", "android", "clean software"]
+    "tags": [
+      "AI",
+      "photography",
+      "android",
+      "clean software"
+    ]
   },
   {
     "id": "ipad-pro-13",
     "name": "iPad Pro 13-inch M4",
-    "price": 1299.00,
+    "price": 1299,
     "salePrice": null,
     "category": "tablets",
     "brand": "Apple",
-    "image": "/images/products/ipad-pro-13.png",
-    "images": ["/images/products/ipad-pro-13.png"],
+    "image": "/images/products/ipad-pro-13.jpg",
+    "images": [
+      "/images/products/ipad-pro-13.jpg"
+    ],
     "rating": 4.8,
     "reviewCount": 445,
     "inStock": true,
@@ -181,17 +233,24 @@
       "Apple Pencil": "Apple Pencil Pro compatible"
     },
     "description": "The thinnest Apple product ever. With the stunning Ultra Retina XDR display and M4 chip, it outperforms most laptops.",
-    "tags": ["creative", "drawing", "portable", "powerful"]
+    "tags": [
+      "creative",
+      "drawing",
+      "portable",
+      "powerful"
+    ]
   },
   {
     "id": "samsung-galaxy-tab-s10",
     "name": "Samsung Galaxy Tab S10 Ultra",
-    "price": 1199.00,
-    "salePrice": 1049.00,
+    "price": 1199,
+    "salePrice": 1049,
     "category": "tablets",
     "brand": "Samsung",
-    "image": "/images/products/galaxy-tab-s10.png",
-    "images": ["/images/products/galaxy-tab-s10.png"],
+    "image": "/images/products/samsung-galaxy-tab-s10.jpg",
+    "images": [
+      "/images/products/samsung-galaxy-tab-s10.jpg"
+    ],
     "rating": 4.5,
     "reviewCount": 312,
     "inStock": true,
@@ -204,17 +263,24 @@
       "RAM": "12GB"
     },
     "description": "The biggest, most immersive Galaxy Tab. Perfect for multitasking with DeX mode and Galaxy AI features.",
-    "tags": ["large screen", "multitasking", "android", "S Pen"]
+    "tags": [
+      "large screen",
+      "multitasking",
+      "android",
+      "S Pen"
+    ]
   },
   {
     "id": "sony-wh1000xm6",
     "name": "Sony WH-1000XM6",
-    "price": 399.00,
+    "price": 399,
     "salePrice": null,
     "category": "headphones",
     "brand": "Sony",
-    "image": "/images/products/sony-wh1000xm6.png",
-    "images": ["/images/products/sony-wh1000xm6.png"],
+    "image": "/images/products/sony-wh1000xm6.jpg",
+    "images": [
+      "/images/products/sony-wh1000xm6.jpg"
+    ],
     "rating": 4.8,
     "reviewCount": 2103,
     "inStock": true,
@@ -227,17 +293,24 @@
       "Codec": "LDAC, AAC, SBC"
     },
     "description": "The king of noise-cancelling headphones gets even better. Unmatched ANC, incredible sound quality, and all-day comfort.",
-    "tags": ["noise cancelling", "wireless", "premium audio", "travel"]
+    "tags": [
+      "noise cancelling",
+      "wireless",
+      "premium audio",
+      "travel"
+    ]
   },
   {
     "id": "airpods-pro-3",
     "name": "Apple AirPods Pro 3",
-    "price": 249.00,
+    "price": 249,
     "salePrice": null,
     "category": "headphones",
     "brand": "Apple",
-    "image": "/images/products/airpods-pro-3.png",
-    "images": ["/images/products/airpods-pro-3.png"],
+    "image": "/images/products/airpods-pro-3.jpg",
+    "images": [
+      "/images/products/airpods-pro-3.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 1567,
     "inStock": true,
@@ -250,17 +323,24 @@
       "Features": "Adaptive Audio, Conversation Awareness"
     },
     "description": "Intelligent sound that adapts to your world. With Adaptive Audio and Conversation Awareness, they know when to block and when to let sound in.",
-    "tags": ["wireless", "compact", "Apple ecosystem", "ANC"]
+    "tags": [
+      "wireless",
+      "compact",
+      "Apple ecosystem",
+      "ANC"
+    ]
   },
   {
     "id": "bose-qc-ultra",
     "name": "Bose QuietComfort Ultra Headphones",
-    "price": 429.00,
-    "salePrice": 379.00,
+    "price": 429,
+    "salePrice": 379,
     "category": "headphones",
     "brand": "Bose",
-    "image": "/images/products/bose-qc-ultra.png",
-    "images": ["/images/products/bose-qc-ultra.png"],
+    "image": "/images/products/bose-qc-ultra.jpg",
+    "images": [
+      "/images/products/bose-qc-ultra.jpg"
+    ],
     "rating": 4.6,
     "reviewCount": 891,
     "inStock": true,
@@ -273,17 +353,24 @@
       "Codec": "aptX Adaptive"
     },
     "description": "Immersive spatial audio meets world-class noise cancellation. Bose's most premium headphones deliver sound that surrounds you.",
-    "tags": ["noise cancelling", "spatial audio", "premium", "comfortable"]
+    "tags": [
+      "noise cancelling",
+      "spatial audio",
+      "premium",
+      "comfortable"
+    ]
   },
   {
     "id": "sony-a7rv",
     "name": "Sony Alpha a7R V",
-    "price": 3899.00,
+    "price": 3899,
     "salePrice": null,
     "category": "cameras",
     "brand": "Sony",
-    "image": "/images/products/sony-a7rv.png",
-    "images": ["/images/products/sony-a7rv.png"],
+    "image": "/images/products/sony-a7rv.jpg",
+    "images": [
+      "/images/products/sony-a7rv.jpg"
+    ],
     "rating": 4.9,
     "reviewCount": 178,
     "inStock": true,
@@ -296,17 +383,24 @@
       "Mount": "Sony E-mount"
     },
     "description": "The ultimate resolution camera with AI-powered autofocus. 61 megapixels of stunning detail for professional photographers.",
-    "tags": ["professional", "high resolution", "mirrorless", "photography"]
+    "tags": [
+      "professional",
+      "high resolution",
+      "mirrorless",
+      "photography"
+    ]
   },
   {
     "id": "canon-eos-r5-ii",
     "name": "Canon EOS R5 Mark II",
-    "price": 4299.00,
+    "price": 4299,
     "salePrice": null,
     "category": "cameras",
     "brand": "Canon",
-    "image": "/images/products/canon-eos-r5-ii.png",
-    "images": ["/images/products/canon-eos-r5-ii.png"],
+    "image": "/images/products/canon-eos-r5-ii.jpg",
+    "images": [
+      "/images/products/canon-eos-r5-ii.jpg"
+    ],
     "rating": 4.8,
     "reviewCount": 134,
     "inStock": true,
@@ -319,17 +413,24 @@
       "Mount": "Canon RF"
     },
     "description": "Hybrid perfection for photographers and filmmakers. Stacked sensor technology delivers blazing speed and incredible image quality.",
-    "tags": ["hybrid", "video", "professional", "fast autofocus"]
+    "tags": [
+      "hybrid",
+      "video",
+      "professional",
+      "fast autofocus"
+    ]
   },
   {
     "id": "dji-mavic-4-pro",
     "name": "DJI Mavic 4 Pro",
-    "price": 2199.00,
+    "price": 2199,
     "salePrice": null,
     "category": "cameras",
     "brand": "DJI",
-    "image": "/images/products/dji-mavic-4-pro.png",
-    "images": ["/images/products/dji-mavic-4-pro.png"],
+    "image": "/images/products/dji-mavic-4-pro.jpg",
+    "images": [
+      "/images/products/dji-mavic-4-pro.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 267,
     "inStock": true,
@@ -342,17 +443,24 @@
       "Obstacle Sensing": "Omnidirectional"
     },
     "description": "Professional aerial imaging redefined. Hasselblad camera meets intelligent flight for breathtaking footage from above.",
-    "tags": ["drone", "aerial", "video", "photography"]
+    "tags": [
+      "drone",
+      "aerial",
+      "video",
+      "photography"
+    ]
   },
   {
     "id": "apple-watch-ultra-3",
     "name": "Apple Watch Ultra 3",
-    "price": 799.00,
+    "price": 799,
     "salePrice": null,
     "category": "accessories",
     "brand": "Apple",
-    "image": "/images/products/apple-watch-ultra-3.png",
-    "images": ["/images/products/apple-watch-ultra-3.png"],
+    "image": "/images/products/apple-watch-ultra-3.jpg",
+    "images": [
+      "/images/products/apple-watch-ultra-3.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 523,
     "inStock": true,
@@ -365,17 +473,24 @@
       "Features": "GPS, Cellular, Satellite SOS"
     },
     "description": "The most rugged and capable Apple Watch. Built for extreme adventures with precision GPS, dive computer, and marathon battery life.",
-    "tags": ["fitness", "outdoor", "rugged", "smartwatch"]
+    "tags": [
+      "fitness",
+      "outdoor",
+      "rugged",
+      "smartwatch"
+    ]
   },
   {
     "id": "samsung-galaxy-watch-7-ultra",
     "name": "Samsung Galaxy Watch Ultra",
-    "price": 649.00,
-    "salePrice": 599.00,
+    "price": 649,
+    "salePrice": 599,
     "category": "accessories",
     "brand": "Samsung",
-    "image": "/images/products/galaxy-watch-ultra.png",
-    "images": ["/images/products/galaxy-watch-ultra.png"],
+    "image": "/images/products/samsung-galaxy-watch-7-ultra.jpg",
+    "images": [
+      "/images/products/samsung-galaxy-watch-7-ultra.jpg"
+    ],
     "rating": 4.4,
     "reviewCount": 289,
     "inStock": true,
@@ -388,17 +503,24 @@
       "OS": "Wear OS 5"
     },
     "description": "Samsung's toughest smartwatch with a titanium frame and cushion design. Built for Galaxy AI health insights.",
-    "tags": ["fitness", "android", "rugged", "smartwatch"]
+    "tags": [
+      "fitness",
+      "android",
+      "rugged",
+      "smartwatch"
+    ]
   },
   {
     "id": "nvidia-rtx-5090",
     "name": "NVIDIA GeForce RTX 5090",
-    "price": 1999.00,
+    "price": 1999,
     "salePrice": null,
     "category": "accessories",
     "brand": "NVIDIA",
-    "image": "/images/products/nvidia-rtx-5090.png",
-    "images": ["/images/products/nvidia-rtx-5090.png"],
+    "image": "/images/products/nvidia-rtx-5090.jpg",
+    "images": [
+      "/images/products/nvidia-rtx-5090.jpg"
+    ],
     "rating": 4.9,
     "reviewCount": 156,
     "inStock": false,
@@ -411,17 +533,24 @@
       "DLSS": "DLSS 4 Multi Frame Generation"
     },
     "description": "The most powerful consumer GPU ever made. Blackwell architecture delivers a generational leap in gaming and AI performance.",
-    "tags": ["gaming", "GPU", "AI", "high-end"]
+    "tags": [
+      "gaming",
+      "GPU",
+      "AI",
+      "high-end"
+    ]
   },
   {
     "id": "logitech-mx-master-4",
     "name": "Logitech MX Master 4",
-    "price": 109.00,
+    "price": 109,
     "salePrice": null,
     "category": "accessories",
     "brand": "Logitech",
-    "image": "/images/products/logitech-mx-master-4.png",
-    "images": ["/images/products/logitech-mx-master-4.png"],
+    "image": "/images/products/logitech-mx-master-4.jpg",
+    "images": [
+      "/images/products/logitech-mx-master-4.jpg"
+    ],
     "rating": 4.7,
     "reviewCount": 1890,
     "inStock": true,
@@ -434,17 +563,24 @@
       "Compatibility": "macOS, Windows, Linux, iPadOS"
     },
     "description": "The productivity mouse, perfected. Ergonomic design, MagSpeed scroll wheel, and seamless multi-device workflow.",
-    "tags": ["productivity", "ergonomic", "wireless", "office"]
+    "tags": [
+      "productivity",
+      "ergonomic",
+      "wireless",
+      "office"
+    ]
   },
   {
     "id": "samsung-odyssey-g9",
     "name": "Samsung Odyssey OLED G9 49\"",
-    "price": 1799.00,
-    "salePrice": 1599.00,
+    "price": 1799,
+    "salePrice": 1599,
     "category": "accessories",
     "brand": "Samsung",
-    "image": "/images/products/samsung-odyssey-g9.png",
-    "images": ["/images/products/samsung-odyssey-g9.png"],
+    "image": "/images/products/samsung-odyssey-g9.jpg",
+    "images": [
+      "/images/products/samsung-odyssey-g9.jpg"
+    ],
     "rating": 4.6,
     "reviewCount": 432,
     "inStock": true,
@@ -457,17 +593,24 @@
       "Curvature": "1800R"
     },
     "description": "The ultimate ultrawide gaming and productivity monitor. 49 inches of curved OLED immersion with blazing 240Hz refresh rate.",
-    "tags": ["gaming", "ultrawide", "OLED", "monitor"]
+    "tags": [
+      "gaming",
+      "ultrawide",
+      "OLED",
+      "monitor"
+    ]
   },
   {
     "id": "sonos-era-300",
     "name": "Sonos Era 300",
-    "price": 449.00,
+    "price": 449,
     "salePrice": null,
     "category": "accessories",
     "brand": "Sonos",
-    "image": "/images/products/sonos-era-300.png",
-    "images": ["/images/products/sonos-era-300.png"],
+    "image": "/images/products/sonos-era-300.jpg",
+    "images": [
+      "/images/products/sonos-era-300.jpg"
+    ],
     "rating": 4.5,
     "reviewCount": 678,
     "inStock": true,
@@ -480,17 +623,24 @@
       "Design": "Unique hourglass shape"
     },
     "description": "Spatial audio comes home. Six precisely angled drivers fill your room with Dolby Atmos sound from a single speaker.",
-    "tags": ["spatial audio", "smart speaker", "home audio", "Dolby Atmos"]
+    "tags": [
+      "spatial audio",
+      "smart speaker",
+      "home audio",
+      "Dolby Atmos"
+    ]
   },
   {
     "id": "steam-deck-oled",
     "name": "Steam Deck OLED 1TB",
-    "price": 649.00,
+    "price": 649,
     "salePrice": null,
     "category": "accessories",
     "brand": "Valve",
-    "image": "/images/products/steam-deck-oled.png",
-    "images": ["/images/products/steam-deck-oled.png"],
+    "image": "/images/products/steam-deck-oled.jpg",
+    "images": [
+      "/images/products/steam-deck-oled.jpg"
+    ],
     "rating": 4.8,
     "reviewCount": 2345,
     "inStock": true,
@@ -503,17 +653,24 @@
       "OS": "SteamOS 3.0"
     },
     "description": "Your PC game library in your hands. The OLED upgrade delivers vibrant visuals and longer battery life for portable gaming.",
-    "tags": ["gaming", "portable", "PC gaming", "handheld"]
+    "tags": [
+      "gaming",
+      "portable",
+      "PC gaming",
+      "handheld"
+    ]
   },
   {
     "id": "anker-prime-250w",
     "name": "Anker Prime 250W Power Bank",
-    "price": 179.00,
-    "salePrice": 149.00,
+    "price": 179,
+    "salePrice": 149,
     "category": "accessories",
     "brand": "Anker",
-    "image": "/images/products/anker-prime-250w.png",
-    "images": ["/images/products/anker-prime-250w.png"],
+    "image": "/images/products/anker-prime-250w.jpg",
+    "images": [
+      "/images/products/anker-prime-250w.jpg"
+    ],
     "rating": 4.5,
     "reviewCount": 1123,
     "inStock": true,
@@ -526,17 +683,24 @@
       "Weight": "1.56 lbs"
     },
     "description": "Power everything. 250W output charges laptops, phones, and tablets simultaneously. Enough juice to charge a MacBook Pro twice.",
-    "tags": ["charging", "portable", "power bank", "travel"]
+    "tags": [
+      "charging",
+      "portable",
+      "power bank",
+      "travel"
+    ]
   },
   {
     "id": "razer-blackwidow-v5",
     "name": "Razer BlackWidow V5 Pro",
-    "price": 229.00,
+    "price": 229,
     "salePrice": null,
     "category": "accessories",
     "brand": "Razer",
-    "image": "/images/products/razer-blackwidow-v5.png",
-    "images": ["/images/products/razer-blackwidow-v5.png"],
+    "image": "/images/products/razer-blackwidow-v5.jpg",
+    "images": [
+      "/images/products/razer-blackwidow-v5.jpg"
+    ],
     "rating": 4.6,
     "reviewCount": 567,
     "inStock": true,
@@ -549,6 +713,11 @@
       "RGB": "Per-key Razer Chroma"
     },
     "description": "The legendary gaming keyboard goes wireless. Tactile mechanical switches, magnetic wrist rest, and per-key RGB lighting.",
-    "tags": ["gaming", "mechanical keyboard", "wireless", "RGB"]
+    "tags": [
+      "gaming",
+      "mechanical keyboard",
+      "wireless",
+      "RGB"
+    ]
   }
 ]

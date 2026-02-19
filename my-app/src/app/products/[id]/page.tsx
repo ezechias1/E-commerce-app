@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import { getAllProducts, getProductById } from "@/lib/products";
 import PriceTag from "@/components/ui/PriceTag";
@@ -9,6 +8,8 @@ import ProductSpecs from "@/components/products/ProductSpecs";
 import AddToCartButton from "@/components/products/AddToCartButton";
 import AIDescription from "@/components/products/AIDescription";
 import AIRecommendations from "@/components/products/AIRecommendations";
+import ImageZoom from "@/components/products/ImageZoom";
+import WishlistButton from "@/components/ui/WishlistButton";
 
 export function generateStaticParams() {
   return getAllProducts().map((p) => ({ id: p.id }));
@@ -42,22 +43,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </nav>
 
       {/* Product Detail */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* Image */}
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-8 aspect-square relative">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            className="object-contain p-8"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            priority
-          />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 animate-fade-in">
+        {/* Image with zoom */}
+        <div className="relative">
+          <ImageZoom src={product.image} alt={product.name} />
           {product.salePrice && (
-            <Badge variant="danger" className="absolute top-4 left-4">
+            <Badge variant="danger" className="absolute top-4 left-4 z-10">
               Sale
             </Badge>
           )}
+          <div className="absolute top-4 right-4 z-10">
+            <WishlistButton product={product} />
+          </div>
         </div>
 
         {/* Info */}
